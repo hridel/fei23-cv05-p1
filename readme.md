@@ -6,3 +6,5 @@ Napište vlastní funkci, která přijímá jako parametr celé číslo **N** ur
 Funkce vrací součet celých čísel v posloupnosti **1** až **N**.
 
 Hlavní program vyzve uživatele k zadání hodnoty pro konec posloupnosti, zavolá funkci a vypíše výsledek.
+
+![img.png](img.png)
