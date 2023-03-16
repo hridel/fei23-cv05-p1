@@ -2,6 +2,8 @@
 
 int sumOfNumbers(int endOfSequence);
 
+int sumOfNumbers2(int endOfSequence);
+
 int main() {
     int n;
 
@@ -9,10 +11,13 @@ int main() {
     scanf("%d", &n);
 
     int result = sumOfNumbers(n);
+    int result2 = sumOfNumbers2(n);
 
-    printf("Soucet cisel od 1 do %d je %d", n, result);
+    printf("\nSoucet cisel od 1 do %d je %d", n, result);
+    printf("\nSoucet cisel od 1 do %d je %d", n, result2);
     return 0;
 }
+
 
 int sumOfNumbers(int endOfSequence) {
     int sum = 0;
@@ -20,4 +25,8 @@ int sumOfNumbers(int endOfSequence) {
         sum += i;
     }
     return sum;
+}
+
+int sumOfNumbers2(int endOfSequence) {
+    return endOfSequence * (1 + endOfSequence) / 2;
 }
